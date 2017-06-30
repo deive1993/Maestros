@@ -17,6 +17,15 @@ public class Insumo {
     private Envase envase;
     private Rubro_insumos rubro_insumo;
 
+    public Insumo(Integer codigo, String undidad_med, String nombre, Integer precio, Rubro_insumos rubro_insumo) {
+        this.codigo = codigo;
+        this.undidad_med = undidad_med;
+        this.nombre = nombre;
+        this.precio = precio;
+        this.rubro_insumo = rubro_insumo;
+    }
+
+    
     public Integer getCodigo() {
         return codigo;
     }

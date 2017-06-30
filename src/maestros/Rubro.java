@@ -13,6 +13,11 @@ public class Rubro {
     private Integer codigo;
     private String nombre;
 
+    public Rubro(Integer codigo, String nombre) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+    }
+
     public Integer getCodigo() {
         return codigo;
     }

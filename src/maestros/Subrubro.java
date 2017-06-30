@@ -13,6 +13,11 @@ public class Subrubro {
     private Integer codigo;
     private String nombre;
 
+    public Subrubro(Integer codigo, String nombre) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+    }
+
     public Integer getCodigo() {
         return codigo;
     }

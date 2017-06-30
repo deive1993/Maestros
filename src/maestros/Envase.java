@@ -15,6 +15,13 @@ public class Envase {
     private String undidad_med;
     private Integer cantidad;
 
+    public Envase(Integer codigo, String nombre, String undidad_med, Integer cantidad) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.undidad_med = undidad_med;
+        this.cantidad = cantidad;
+    }
+
     public Integer getCodigo() {
         return codigo;
     }
