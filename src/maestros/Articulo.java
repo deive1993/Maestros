@@ -16,6 +16,24 @@ public class Articulo {
     private Subrubro subrubro;
     private Rubro rubro;
 
+    
+    
+    
+    
+    public Articulo(Integer codigo, String nombre) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+    }
+
+    
+    public Articulo(Integer codigo, String nombre, String descripcion, Subrubro subrubro, Rubro rubro) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.descripcion = descripcion;
+        this.subrubro = subrubro;
+        this.rubro = rubro;
+    }
+
     public Integer getCodigo() {
         return codigo;
     }

@@ -6,6 +6,10 @@
 package maestros;
 
 public class Maestros {
+    Articulo unArticulo = new Articulo(1,  "coca");
+    
+    Rubro unRubro = new Rubro();
+    
 
     /**
      * @param args the command line arguments
